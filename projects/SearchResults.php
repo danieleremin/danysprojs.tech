@@ -35,7 +35,7 @@
     // Get the files of the directory as an array
     $scan_arr = scandir($dir);
     $files_arr = array_diff($scan_arr, array('.','..') );
-    echo "<pre>"; print_r( $files_arr ); echo "</pre>";
+    echo "<p>"; print_r( $files_arr ); echo "</p>";
     // Get each files of our directory with line break
     foreach ($files_arr as $file) {
       //Get the file path
