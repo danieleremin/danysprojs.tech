@@ -31,9 +31,7 @@
   <h1>Project search results</h1>
   <div class="sresults">
   <?php
-  $dir = 'projects';
-  // Check if the directory exists
-  if (file_exists($dir) && is_dir($dir) ) {
+    $dir = './projects';
     // Get the files of the directory as an array
     $scan_arr = scandir($dir);
     $files_arr = array_diff($scan_arr, array('.','..') );
@@ -41,7 +39,7 @@
     // Get each files of our directory with line break
     foreach ($files_arr as $file) {
       //Get the file path
-      $file_path = "projects/".$file;
+      $file_path = $file;
       // Get the file extension
       $file_ext = pathinfo($file_path, PATHINFO_EXTENSION);
       if ($file_ext=="html" || $file_ext=="HTML" || $file_ext=="Html") {
@@ -49,10 +47,6 @@
     }
 
   }
-}
-else {
-print "Directory does not exists";
-}
    ?>
  </div>
 </body>
