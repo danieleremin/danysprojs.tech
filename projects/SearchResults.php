@@ -40,6 +40,7 @@
     foreach ($files_arr as $file) {
       //Get the file path
       $file_path = $file;
+      echo $file;
       // Get the file extension
       $file_ext = pathinfo($file_path, PATHINFO_EXTENSION);
       if ($file_ext=="html" || $file_ext=="HTML" || $file_ext=="Html") {
