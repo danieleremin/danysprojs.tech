@@ -106,3 +106,6 @@ body {
     animation-name: fade-in;
     animation-duration: 300ms;
 }
+.sresults a {
+  font-size: 15px;
+}
