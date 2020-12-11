@@ -31,7 +31,7 @@
   <h1>Project search results</h1>
   <div class="sresults">
   <?php
-    $dir = './projects';
+    $dir = '../projects';
     // Get the files of the directory as an array
     $scan_arr = scandir($dir);
     $files_arr = array_diff($scan_arr, array('.','..') );
