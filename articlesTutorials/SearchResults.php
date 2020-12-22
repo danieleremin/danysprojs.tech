@@ -31,7 +31,7 @@
   <h1>Article and Tutorial search results</h1>
   <div class="sresults">
   <?php
-    echo "You searched for {$_GET['search']}";
+    echo "You searched for '{$_GET['search']}'";
    ?>
  </div>
 </body>
