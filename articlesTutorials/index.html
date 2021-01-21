@@ -10,7 +10,7 @@
   <link href="/styles.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="text/javascript">
-    function more() {
+  function more() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
@@ -25,8 +25,8 @@
 <body>
   <div id="fader"></div>
   <script type="text/javascript">
-    fadeInPage();
-    // Function defined in linked Javascript file
+  fadeInPage();
+  // Function defined in linked Javascript file
   </script>
   <nav class="topnav" id="myTopnav">
     <img src="/logo.svg" alt="Logo" title="My website logo" width="43" height="43" style="float:left; padding-right: 10px;"/>
@@ -36,18 +36,20 @@
     <a class="disabled">Contact me and FAQ</a>
     <a href="javascript:void(0);" class="icon" onclick="more()" style="float: right;"><i class="fa fa-bars"> Show menu</i></a>
   </nav>
-  <h2>Articles and Tutorials</h2>
-  <!-- <p>Search all articles and tutorials:
+  <div class="main">
+    <h2>Articles and Tutorials</h2>
+    <!-- <p>Search all articles and tutorials:
     <form method="get" action="/articlesTutorials/SearchResults.php">
-      <input type="search" name="search" required />
-      <button><img alt="" src="/media/Search.png" height="16" width="16"> Search</button>
-    </form>
-  </p> -->
-  <h3>Most recent articles</h3>
-  <div class="center">
-    <!-- When there is content to show put heading here -->
-    <br><br>
+    <input type="search" name="search" required />
+    <button><img alt="" src="/media/Search.png" height="16" width="16"> Search</button>
+  </form>
+</p> -->
+<h3>Most recent articles</h3>
+<div class="center">
+  <!-- When there is content to show put heading here -->
+  <br><br>
   <p style="text-align: center; width: 80px; border: 10px outset;"><strong>NOTHING TO SHOW</strong></p>
-  </div>
+</div>
+</div>
 </body>
 </html>
