@@ -110,7 +110,7 @@ body {
 }
 div.main {
   background-color: #e8edf4;
-  height: 100%;
+  height: auto;
   padding: 2px;
   padding-left: 5px;
 }
