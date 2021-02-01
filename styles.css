@@ -113,4 +113,5 @@ div.main {
   height: auto;
   padding: 2px;
   padding-left: 5px;
+  border-radius: 5px;
 }
