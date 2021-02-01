@@ -2,6 +2,7 @@ nav {
   position: sticky;
   z-index: 5;
   opacity: 0.96;
+  background-color: beige;
   background: -webkit-linear-gradient(darkgray, #1f476b);
   width: 100%;
   border: 2px solid black;
